@@ -1,0 +1,128 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family:Helvetica;
+    color: white;
+    text-shadow: 2px 2px 1px grey;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    }
+
+table th, td {
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer ;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    }
+
+table td {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    }
+
+table td img {
+    max-width: 100px;
+    height: auto;
+    }
+
+table td[colspan="7"] {
+    text-align: center;
+    font-style: italic;
+    }   
+
+.container {
+    max-width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #04052E, #1C1B33);
+    }
+      
+.main {
+    background: repeating-linear-gradient(to left, #0079FF 40%, #001D3D 10%);
+    padding: 20px;
+    border-radius: 5px;
+    }
+      
+.input {
+    color: #ffffff;
+    margin-bottom: 15px;
+    }
+      
+.input label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+      
+.input input[type="text"],
+
+.input select {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #001D3D;
+    }
+      
+.input select {
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+    }
+      
+.submit input[type="submit"] {
+    background-color: #3cff00;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+      
+.submit input[type="submit"]:hover {
+    background-color: #116eca;
+    }
+
+.input select[name="kategori"]{
+    width: 780px;
+    }
+
+.in label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+
+.in input[type="text"],
+.in select {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+      
+.in select {
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+    }
+
